@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open Sans');
 
-/* @media screen and (min-width:660px) {
-  h2, h3, h4, h5, h6, p{
-  margin-right: 10%;
-  margin-left: 10%;
-  }
-*/
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans';font-size: 22px;
 }
 
 /* Style the header */
@@ -46,6 +37,22 @@ body {
   color: black;
 }
 
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -53,8 +60,9 @@ body {
   clear: both;
 }
 
-.footer {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 10px;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 660px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
 }
