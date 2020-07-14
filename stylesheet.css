@@ -45,8 +45,12 @@ body {
 }
 
 /* Left and right column */
-.column.side {
-  width: 15%;
+.column.left {
+  width: 10%;
+}
+
+.column.right {
+  width: 20%;
 }
 
 /* Middle column */
@@ -69,7 +73,7 @@ body {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 660px) {
-  .column.side, .column.middle {
+  .column.left, .column.middle, column.right {
     width: 100%;
   }
 }
