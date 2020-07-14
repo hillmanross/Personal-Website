@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open Sans');
 
 @media screen and (min-width:660px) {
-  h2{
-  margin-right: 15%;
-  margin-left: 15%;
-  }
-  
-  h3 {
-  margin-right: 15%;
-  margin-left: 15%;
+  h2, h3, p{
+  margin-right: 10%;
+  margin-left: 10%;
   }
 
-  p {
-  margin-right: 15%;
-  margin-left: 15%;
-  }
   
 }
 
