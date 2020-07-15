@@ -40,6 +40,7 @@ body {
 
 /* Create three unequal columns that floats next to each other */
 .column {
+<<<<<<< HEAD
   float: left;
   padding: 10px;
 }
@@ -47,13 +48,36 @@ body {
 /* Left and right column */
 .column.side {
   width: 20%;
+=======
+  padding: 2%;
+  margin: 2%;
+}
+
+/* Left and right column */
+.column.left {
+  float: left;
+  width: 10%;
+  border: 3px solid black;
+>>>>>>> ca98617167f9d588638c424cc438e2d0992bc4a8
 }
 
 /* Middle column */
 .column.middle {
+<<<<<<< HEAD
   width: 60%;
 }
 
+=======
+  float: left;
+  width: 60%;
+}
+
+.column.right {
+  float: right;
+  width: 20%;
+}
+
+>>>>>>> ca98617167f9d588638c424cc438e2d0992bc4a8
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -61,6 +85,7 @@ body {
   clear: both;
 }
 
+<<<<<<< HEAD
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 660px) {
   .column.left, .column.middle, column.right {
@@ -68,9 +93,20 @@ body {
   }
 }
 
+=======
+>>>>>>> ca98617167f9d588638c424cc438e2d0992bc4a8
 .footer {
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
 }
 
+<<<<<<< HEAD
+=======
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 660px) {
+  .column.left, .column.middle, column.right {
+    width: 100%;
+  }
+}
+>>>>>>> ca98617167f9d588638c424cc438e2d0992bc4a8
