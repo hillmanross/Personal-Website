@@ -40,24 +40,26 @@ body {
 
 /* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
-  padding: 10px;
-  margin: 10px;
+  padding: 2%;
+  margin: 2%;
 }
 
 /* Left and right column */
 .column.left {
+  float: left;
   width: 10%;
   border: 3px solid black;
 }
 
-.column.right {
-  width: 20%;
-}
-
 /* Middle column */
 .column.middle {
+  float: left;
   width: 60%;
+}
+
+.column.right {
+  float: right;
+  width: 20%;
 }
 
 /* Clear floats after the columns */
