@@ -41,8 +41,8 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* Left and right column */
@@ -57,7 +57,7 @@ body {
 
 /* Middle column */
 .column.middle {
-  width: 70%;
+  width: 60%;
 }
 
 /* Clear floats after the columns */
