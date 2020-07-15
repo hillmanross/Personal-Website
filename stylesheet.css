@@ -41,12 +41,14 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
+  padding: 20px;
+  margin: 20px;
 }
 
 /* Left and right column */
 .column.left {
   width: 10%;
+  border: 3px solid black;
 }
 
 .column.right {
