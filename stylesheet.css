@@ -38,6 +38,12 @@ body {
   color: black;
 }
 
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
 /* Left and right column */
 .column.side {
   width: 20%;
