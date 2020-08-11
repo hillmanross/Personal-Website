@@ -62,7 +62,7 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1100px) {
   .column.left, .column.middle, column.right {
     width: 100%;
   }
@@ -73,4 +73,3 @@ body {
   text-align: center;
   padding: 10px;
 }
-
