@@ -9,6 +9,14 @@ body {
   font-family: 'Open Sans'; font-size: 22px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
 /* Style the header */
 .header {
   background-color: #f1f1f1;
@@ -68,12 +76,10 @@ body {
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+.pdf {
+  width: 800px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 .footer {
