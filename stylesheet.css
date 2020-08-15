@@ -76,12 +76,12 @@ img {
   }
 }
 
-/*.pdf {
-  width: 800px;
+.pdf {
+  width: 1100px;
   margin-left: auto ;
   margin-right: auto ;
 }
-*/
+
 .footer {
   background-color: #F1F1F1;
   text-align: center;
