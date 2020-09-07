@@ -1,0 +1,5 @@
+Sitemap: https://www.rosshillman.com/sitemap.txt
+
+User-agent: *
+Disallow: /.git/
+Disallow: /images/
