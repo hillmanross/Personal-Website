@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/svg+xml" href="/images/Ross-Hillman-vector-logo.svg">
+  <link rel="alternate icon" href="/images/Ross-Hillman-logosquare32px.png">
+  
+  <title>
+    Ross Hillman's Resume
+  </title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+  </script>
+
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Ross Hillman's Resume</h1>
+  <p>Here is my resume.</p>
+</div>
+
+<div class="topnav">
+  <a href="https://rosshillman.com/">Home</a>
+  <a href="https://rosshillman.com/resume">Resume</a>
+  <a href="https://rosshillman.com/projects">Projects</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+
+  </div>
+
+  <div class="column middle">
+    <h2>Ross Hillman</h2>
+
+    <p style="text-align: center;">
+      Click <a href="/RossHillman-Resume.pdf" target="_blank">here</a> to view resume PDF in a new tab.
+    </p>
+
+    <iframe src="https://docs.google.com/viewer?url=https://www.rosshillman.com/RossHillman-Resume.pdf&embedded=true"
+            title="Ross Hillman Resume" 
+            width="100%"
+            style="border:solid;"
+            scrolling="no"
+            onload="resizeIframe(this)"
+            >
+    </iframe>
+
+  </div>
+
+  <div class="column side">
+
+  </div>
+</div>
+
+<div class="footer">
+  <img
+    src="/images/Ross-Hillman-vector-logo.svg"
+    alt="Ross Hillman Logo"
+    style="width:32px;height:32px;">
+</div>
+
+</body>
+</html>
