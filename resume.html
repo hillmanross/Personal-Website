@@ -12,12 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  
-  <script>
-    function resizeIframe(obj) {
-      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-    }
-  </script>
 
 </head>
 
@@ -46,14 +40,25 @@
       Click <a href="/RossHillman-Resume.pdf" target="_blank">here</a> to view resume PDF in a new tab.
     </p>
 
-    <iframe src="https://docs.google.com/viewer?url=https://www.rosshillman.com/RossHillman-Resume.pdf&embedded=true"
-            title="Ross Hillman Resume" 
-            width="100%"
-            style="border:solid;"
-            scrolling="no"
-            onload="resizeIframe(this)"
-            >
-    </iframe>
+    <div class="pdf">
+      <object
+        data="/RossHillman-Resume.pdf"
+        type="application/pdf"
+        width="816"
+        height="1056"
+      />
+
+        <div class="pdf">
+          <embed
+            src="/RossHillman-Resume.pdf"
+            type="application/pdf"
+            width="816"
+            height="1056"
+          />
+        </div>
+
+      </object>
+    </div>
 
   </div>
 
