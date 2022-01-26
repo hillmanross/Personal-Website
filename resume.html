@@ -13,6 +13,12 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+  </script>
+
 </head>
 
 <body>
@@ -44,8 +50,8 @@
             title="Ross Hillman Resume" 
             width="100%"
             style="border:solid;"
-            sandbox="allow-same-origin"
-            onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';"
+            scrolling="no"
+            onload="resizeIframe(this)"
             >
     </iframe>
 
